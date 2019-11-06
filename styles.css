@@ -23,18 +23,24 @@ p{
   font-size: 3rem;
   line-height:1.5;
 }
-
+/*Containers*/
 .container-fluid{
   padding: 7% 15%;
 }
 
+/*Sections*/
+.colored-section{
+ background-color: #FF4C68; 
+color: white;
+}
+
+.white-section{
+  background-color: white;
+}
 
 #logo{
   font-family: 'Ubuntu', sans-serif;
 }
-
-
-
 
 /*Navigation Bar*/
 
@@ -63,14 +69,10 @@ p{
   }
 
   /*Title Section*/
-  #title{
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-  }
 
   #title .container-fluid{
     padding: 3% 15% 7%;
+    text-align:left
   }
 
   /*Title Image*/
@@ -84,7 +86,6 @@ p{
   /*Key Features*/
   
   #features{
-    background-color: #ffffff;
     position: relative;
   }
 
@@ -106,7 +107,7 @@ p{
   /*Testimonial Sections*/
   #testimonials{
     background-color: #EF8172;
-    color: white;
+    
   }
 
   .testimonial-image{
@@ -145,14 +146,6 @@ p{
     line-height:1.5;
   }
   
-
-  /*Call to Action Section*/
-  #cta{
-    background-color: #ff4c68;
-    color: white;
-   }
-  
-
 /*Footer*/
 #footer{
     color: black;
@@ -167,7 +160,7 @@ p{
     position:static;
     transform: rotate(0);
   }
-  #title{
+  #title .container-fluid{
     text-align: center;
   }
 }
